@@ -26,3 +26,19 @@ h1, h2, h3 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 700;
 }
+
+
+
+
+/* * grid */
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width:768px){
+    .grid--1x2 {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
