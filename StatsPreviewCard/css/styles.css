@@ -27,6 +27,15 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+/* * card */
+.card {
+    display: flex;
+}
+
+.card__body {
+    background: var(--card-background);
+    
+}
 
 
 
