@@ -42,7 +42,19 @@ h1, h2, h3 {
     line-height: 1.2;
 }
 
+.card__footer {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.crad__img {
+    width: 100%;
+}
+
 /* * highlight */
+
+.highlight {
+    color: var(--accent);
+}
 
 
 
