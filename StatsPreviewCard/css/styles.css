@@ -34,7 +34,7 @@ h1, h2, h3 {
     display: flex;
     text-align: center;
     width:85vw;
-    margin: 0 auto;
+    margin: 3rem auto;
     overflow: hidden;
 }
 
