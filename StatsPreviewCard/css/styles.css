@@ -33,19 +33,19 @@ h1, h2, h3 {
     border-radius:10px; 
     display: flex;
     justify-self: center;
-    height: 65vh;
-    width: 85vw;
+    margin: 0 auto;
     text-align: center;
+    width: 70vw;
     overflow: hidden;
 }
 
 .card__body {
     background: var(--card-background); 
+    padding: 3rem;
 }
 
 .card__heading {
     color: var(--main_heading-stats);
-    margin-top: 5rem;
     font-size: 3.5rem;
     text-align: center;
 }
@@ -62,6 +62,10 @@ h1, h2, h3 {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     margin: 0 auto;
     width: 19%;
+}
+
+.card__footer p {
+    margin-bottom: 2.5rem;
 }
 
 .card-img {
