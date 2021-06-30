@@ -6,7 +6,7 @@
     --card-background: hsl(244, 38%, 16%);
     --accent: hsl(277, 64%, 61%);
     --main_heading-stats: hsl(0, 0%, 100%);
-    --main-paragraph: hsla(0, 0%, 100%, 0.75);
+    --main-paragraph: hsla(0, 0%, 100%, 0.45);
     --stat-headings: hsla(0, 0%, 100%, 0.6);
 }
 
@@ -33,7 +33,7 @@ h1, h2, h3 {
     border-radius:10px; 
     display: flex;
     justify-self: center;
-    margin: 0 auto;
+    margin: 2rem auto;
     text-align: center;
     width: 70vw;
     overflow: hidden;
@@ -41,19 +41,20 @@ h1, h2, h3 {
 
 .card__body {
     background: var(--card-background); 
-    padding: 3rem;
+    padding: 2.5rem;
 }
 
 .card__heading {
     color: var(--main_heading-stats);
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
 .card__content {
     color: var(--main-paragraph);
+    font-size: 1.75rem;
     line-height: 1.7;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
 }
 
 .card__footer {
@@ -65,7 +66,7 @@ h1, h2, h3 {
 }
 
 .card__footer p {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .card-img {
@@ -80,16 +81,7 @@ h1, h2, h3 {
   }
 
 @media screen and (min-width:768px) {
-    .card__heading {
-        font-size: 3.4rem;
-    }
-
-    .card__body {
-        order: -1;
-        justify-self: center;
-        align-items: center;
-        height: 100%;
-    }
+   
 }
 
 /* * highlight */
