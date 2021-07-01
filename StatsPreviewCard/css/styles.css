@@ -88,7 +88,6 @@ h1{
     }
 
     .card__body{
-        width: 100%;
         order: -1;
         padding: 5rem 6rem 2.7rem 5rem;
     }
