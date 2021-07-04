@@ -1,4 +1,15 @@
 @import url(/css/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* * Custom colors */
+
+:root {
+    --background__orange: hsl(31, 77%, 52%);
+    --background__cyan:hsl(184, 100%, 22%);
+    --background__dark-cyan: hsl(179, 100%, 13%);
+    --paragraph__color: hsla(0, 0%, 100%, 0.75);
+    --another__white: hsl(179, 100%, 13%);
+}
 
 .attribution {
     font-size: 11px;
@@ -8,3 +19,15 @@
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+  /* Typography */
+  html {
+      font-size: 62.5%;
+  }
+
+  body {
+      color: var(--background__cyan);
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 6.5rem;
+  }
+
