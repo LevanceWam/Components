@@ -26,8 +26,29 @@
   }
 
   body {
-      color: var(--background__cyan);
+      color: var(--paragraph__color);
       font-family: 'Lexend Deca', sans-serif;
-      font-size: 6.5rem;
+      font-size: 1.5rem;
   }
 
+/* * card */
+
+.card__body {
+    width: 75vw;
+    margin: 2rem auto;
+    display: flex;
+    height: 100vh;
+    justify-self: center;
+}
+
+.bg-orange {
+    background-color: var(--background__orange);
+}
+
+.bg-cyan {
+    background-color: var(--background__cyan);
+}
+
+.bg-dark_cyan {
+    background-color: var(--background__dark-cyan);
+}
