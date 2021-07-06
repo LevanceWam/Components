@@ -63,8 +63,8 @@
     font-family: 'Big Shoulders Display', cursive;
     font-size: 4.052rem;
     font-weight: 700;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
 
@@ -80,6 +80,7 @@
     border: 1px solid white;
     border-radius: 40px;
     width: 65%;
+    margin-top: 1.1rem;
 }
 
 .btn-orange {
@@ -89,14 +90,26 @@
 
 .btn-cyan {
     background-color: var(--background__cyan);
+    transition: background-color ease-in .5s, color ease-in .5s;
 }
 
 .btn-dark_cyan {
     background-color: var(--background__dark-cyan);
+    transition: background-color ease-in .5s, color ease-in .5s;
 }
 
 .btn-orange:hover {
     color: var(--background__orange);
+    background-color: var(--another__white);
+    cursor: pointer;
+}
+.btn-cyan:hover {
+    color: var(--background__cyan);
+    background-color: var(--another__white);
+    cursor: pointer;
+}
+.btn-dark_cyan:hover {
+    color: var(--background__dark-cyan);
     background-color: var(--another__white);
     cursor: pointer;
 }
