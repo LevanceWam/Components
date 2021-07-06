@@ -84,6 +84,7 @@
 
 .btn-orange {
     background-color: var(--background__orange);
+    transition: background-color ease-in .5s, color ease-in .5s;
 }
 
 .btn-cyan {
