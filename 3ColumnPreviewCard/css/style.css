@@ -31,15 +31,7 @@
       font-size: 1.5rem;
   }
 
-/* * card */
-
-.card__body {
-    width: 75vw;
-    margin: 2rem auto;
-    display: flex;
-    height: 100vh;
-    justify-self: center;
-}
+/* * background color */
 
 .bg-orange {
     background-color: var(--background__orange);
@@ -52,3 +44,18 @@
 .bg-dark_cyan {
     background-color: var(--background__dark-cyan);
 }
+
+/* * card */
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    overflow: hidden;
+}
+
+.card__img {
+    width: 25.5%;
+    margin-bottom: .8rem;
+}
+
