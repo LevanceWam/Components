@@ -79,6 +79,22 @@
     line-height: 1.8;
 }
 
+@media screen and (min-width:768px) {
+
+    .card {
+        width: 65vw;
+        margin-top: 15rem;
+    }
+
+    .card__body {
+        padding: 5.1rem;
+    }
+
+    .card__content {
+        margin-bottom: 6.5rem;
+    }
+}
+
 /* * Button */
 
 .btn {
@@ -119,4 +135,15 @@
     color: var(--background__dark-cyan);
     background-color: var(--another__white);
     cursor: pointer;
+}
+
+/* * grid */
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width:768px) {
+    .grid--1x3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
