@@ -47,6 +47,13 @@
 
 /* * card */
 
+.card {
+    width: 83vw;
+    margin: 5rem auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .card__body {
     display: flex;
     flex-direction: column;
