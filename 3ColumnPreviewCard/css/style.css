@@ -82,6 +82,21 @@
 @media screen and (min-width:768px) {
 
     .card {
+        width: 89vw;
+        margin-top: 15rem;
+    }
+
+    .card__body {
+        padding: 4.1rem;
+    }
+
+    .card__content {
+        margin-bottom: 6.5rem;
+    }
+}
+@media screen and (min-width:1024px) {
+
+    .card {
         width: 65vw;
         margin-top: 15rem;
     }
@@ -138,6 +153,13 @@
     color: var(--another__white);
     background-color: var(--background__dark-cyan);
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .btn {
+        width: 100%;
+    }
+    
 }
 
 /* * grid */
