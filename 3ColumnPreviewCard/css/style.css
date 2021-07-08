@@ -97,6 +97,22 @@
 @media screen and (min-width:1024px) {
 
     .card {
+        width: 91vw;
+        margin-top: 15rem;
+    }
+
+    .card__body {
+        padding: 5.1rem;
+    }
+
+    .card__content {
+        margin-bottom: 6.5rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .card {
         width: 65vw;
         margin-top: 15rem;
     }
