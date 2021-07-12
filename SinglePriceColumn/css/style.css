@@ -1,8 +1,24 @@
 /* * Importing the normalize css */
 @import url(/css/normalize.css);
 
+:root {
+    --primary-color:hsl(179, 62%, 43%);
+    --secondary-color:hsl(71, 73%, 54%);
+    --neutral-color-one: hsl(204, 43%, 93%);
+    --neutral-color-two: hsl(218, 22%, 67%);
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
     /* Typography */
+
+    html {
+        font-size: 62.5;
+    }
+
+    body {
+        font-family:'Karla', sans-serif;
+        font-size: 1.6rem;
+    }
