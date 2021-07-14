@@ -17,7 +17,7 @@
     color: hsl(228, 45%, 44%); 
 }
 
-/* Typography */
+/* * Typography */
 
 html {
     font-size: 62.5%;
@@ -26,5 +26,12 @@ html {
 body {
     font-family:'Karla', sans-serif;
     font-size: 1.6rem;
+    background-color: var(--neutral-color-one);
 }
 
+/* * Container  */
+
+.container {
+    max-width: 375px;
+    margin: 20px auto;
+}
