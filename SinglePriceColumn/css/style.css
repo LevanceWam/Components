@@ -52,6 +52,7 @@ body {
     color: var(--primary-color);
 }
 
+/* *targeting the first paragraph in the block using pseudo selector */
 .community-block p:first-of-type {
     color: var(--secondary-color);
     margin: 2rem 0;
@@ -62,3 +63,5 @@ body {
     font-size: 1.4rem;
     line-height: 1.8;
 }
+
+/* TODO work on the subscription block next */
