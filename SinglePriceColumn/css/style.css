@@ -40,6 +40,11 @@ body {
     margin: 20px auto;
 }
 
+/* * Headings */
+.heading {
+    font-size: 1.8rem;
+}
+
 /* * community block */
 
 .community-block {
@@ -48,7 +53,6 @@ body {
 }
 
 .community_heading {
-    font-size: 2.2rem;
     color: var(--primary-color);
 }
 
@@ -67,5 +71,20 @@ body {
 /* TODO work on the subscription block next */
 
 .sub-block {
-    
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: var(--neutral-color-one);
+}
+
+.price {
+    display: inline-block;
+    font-size: 3rem;
+    margin-right: .5rem;
+    margin-top: 1rem;
+}
+
+.cycle {
+    opacity: .7;
+    position: relative;
+    bottom: 4px;
 }
