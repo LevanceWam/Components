@@ -65,7 +65,7 @@ body {
 .community-block p:last-of-type {
     color: var(--neutral-color-two);
     font-size: 1.4rem;
-    line-height: 1.8;
+    line-height: 2;
 }
 
 /* TODO work on the subscription block next */
