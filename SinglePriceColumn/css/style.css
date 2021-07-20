@@ -92,8 +92,8 @@ body {
 /* * button */
 
 .btn {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
     text-align: center;
     border-radius: 5.5px;
     padding: 1.5rem 0;
@@ -111,6 +111,11 @@ body {
 .btn--stretched {
     padding-left: 11rem;
     padding-right: 11rem;
+}
+
+.btn--block{
+    width: 100%;
+    display: inline-block;
 }
 
 /* TODO Work on the us section */
