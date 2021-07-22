@@ -36,13 +36,13 @@ body {
 /* * Container  */
 
 .container {
-    max-width: 320px;
+    max-width: 320vw;
     margin: 20px auto;
 }
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: ;
+        max-width: 600px;
     }
 }
 
@@ -142,4 +142,12 @@ body {
 .list li {
     margin-bottom: .5rem;
     opacity: .8;
+}
+
+/* * grid */
+
+.grid {
+    display: grid;
+    /* grid-template: repeat(1,50fr), repeat(2,50fr); */
+    gap: 10px;
 }
