@@ -148,6 +148,9 @@ body {
 
 .grid {
     display: grid;
-    /* grid-template: repeat(1,50fr), repeat(2,50fr); */
-    gap: 10px;
+    grid-template-columns: repeat(2, 50fr);
+}
+
+.span_column {
+    grid-column: 1 / 3;
 }
