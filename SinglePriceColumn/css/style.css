@@ -46,6 +46,12 @@ body {
     }
 }
 
+/* * Blocks */
+
+.block {
+    padding: 2rem;
+}
+
 /* * Headings */
 .heading {
     font-size: 1.8rem;
@@ -148,7 +154,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(2, 50fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .span_column {
