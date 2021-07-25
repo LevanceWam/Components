@@ -52,6 +52,20 @@ body {
     padding: 2rem;
 }
 
+.block-primary-bg {
+    background-color: white;
+}
+
+.block-secondary-bg {
+    background-color: var(--primary-color);
+    color: var(--neutral-color-one);
+}
+
+.block-accent-bg {
+    background-color: #50bebc;
+    color: var(--neutral-color-one);
+}
+
 /* * Headings */
 .heading {
     font-size: 1.8rem;
@@ -132,11 +146,6 @@ body {
 
 /* TODO Work on the us section */
 
-.block {
-    background-color: #50bebc;
-    color: var(--neutral-color-one);
-    padding: 2rem;
-}
 
 .list {
     list-style-type: none;
