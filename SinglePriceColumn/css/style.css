@@ -42,7 +42,7 @@ body {
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 600px;
+        max-width: 750px;
     }
 }
 
@@ -66,17 +66,18 @@ body {
     color: var(--neutral-color-one);
 }
 
+@media screen and (min-width:768px) {
+    .block {
+        padding: 4rem;
+    }
+}
+
 /* * Headings */
 .heading {
     font-size: 1.8rem;
 }
 
 /* * community block */
-
-.community-block {
-    background-color: white;
-    padding: 2rem;
-}
 
 .community_heading {
     color: var(--primary-color);
@@ -95,12 +96,6 @@ body {
 }
 
 /* TODO work on the subscription block next */
-
-.sub-block {
-    background-color: var(--primary-color);
-    padding: 2rem;
-    color: var(--neutral-color-one);
-}
 
 .price {
     display: inline-block;
@@ -145,7 +140,6 @@ body {
 }
 
 /* TODO Work on the us section */
-
 
 .list {
     list-style-type: none;
