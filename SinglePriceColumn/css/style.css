@@ -69,6 +69,7 @@ body {
 @media screen and (min-width:768px) {
     .block {
         padding: 4rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -84,12 +85,12 @@ body {
 }
 
 /* *targeting the first paragraph in the block using pseudo selector */
-.community-block p:first-of-type {
+.comm_paragraph {
     color: var(--secondary-color);
     margin: 2rem 0;
 }
 
-.community-block p:last-of-type {
+.comm_para {
     color: var(--neutral-color-two);
     font-size: 1.4rem;
     line-height: 2;
