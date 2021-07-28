@@ -38,6 +38,8 @@ body {
 .container {
     max-width: 320vw;
     margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 @media screen and (min-width:768px) {
@@ -80,7 +82,7 @@ body {
 
 /* * community block */
 
-.community_heading {
+.heading--primary {
     color: var(--primary-color);
 }
 
