@@ -44,7 +44,7 @@ body {
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 600px;
+        max-width: 715px;
     }
 }
 
@@ -70,7 +70,7 @@ body {
 
 @media screen and (min-width:768px) {
     .block {
-        padding: 4.5rem;
+        padding: 4rem;
         font-size: 1.8rem;
     }
 }
