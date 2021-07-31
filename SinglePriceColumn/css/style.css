@@ -33,6 +33,10 @@ body {
     background-color: var(--neutral-color-one);
 }
 
+p {
+    margin: 0;
+}
+
 
 /* * Container  */
 
@@ -90,17 +94,22 @@ body {
 /* *targeting the first paragraph in the block using pseudo selector */
 .comm_paragraph {
     color: var(--secondary-color);
-    margin: 2rem 0;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .comm_para {
     color: var(--neutral-color-two);
     font-size: 1.4rem;
     line-height: 2;
+    opacity: .8;
 }
 
 @media screen and (min-width: 768px) {
-
+    .comm_para {
+        font-size: 1.6rem;
+    } 
 }
 
 /* TODO work on the subscription block next */
