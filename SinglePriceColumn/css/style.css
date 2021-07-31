@@ -95,8 +95,7 @@ p {
 .comm_paragraph {
     color: var(--secondary-color);
     display: inline-block;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 .comm_para {
@@ -107,9 +106,26 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+
+    .main_heading {
+        font-size: 2.4rem;
+    }
+
+    .comm_paragraph {
+        margin-bottom: 1rem;
+    }
+
     .comm_para {
         font-size: 1.6rem;
     } 
+
+    .break {
+        display: inline-block;
+    }
+
+    .break::before {
+        content: "\A";
+    }
 }
 
 /* TODO work on the subscription block next */
