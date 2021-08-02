@@ -164,11 +164,11 @@ p {
 /* * button */
 
 .btn {
-    margin-top: 1rem;
+    margin-top: 3rem;
     margin-bottom: .5rem;
     text-align: center;
     border-radius: 5.5px;
-    padding: 1.5rem 0;
+    padding: 1.5rem 6rem;
     white-space: nowrap;
     outline: 0;
     border: 0;
