@@ -145,6 +145,10 @@ p {
     bottom: 4px;
 }
 
+.description {
+    margin-top: 1rem;
+}
+
 @media screen and (min-width:768px) {
 
     .sub_heading {
@@ -168,7 +172,7 @@ p {
     margin-bottom: .5rem;
     text-align: center;
     border-radius: 5.5px;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 7rem;
     white-space: nowrap;
     outline: 0;
     border: 0;
@@ -181,8 +185,8 @@ p {
 }
 
 .btn--stretched {
-    padding-left: 10rem;
-    padding-right: 10rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
 }
 
 @media screen and (min-width:768px) {
