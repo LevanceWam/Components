@@ -75,8 +75,9 @@ p {
 
 @media screen and (min-width:768px) {
     .block {
-        padding: 4.5rem;
+        padding: 3.5rem;
         font-size: 1.9rem;
+        text-align: center;
     }
 }
 
@@ -193,6 +194,11 @@ p {
     .btn {
         margin-top: 2rem;
     }
+
+    .btn--stretched {
+        padding-left: 8.5rem;
+        padding-right: 8.5rem;
+    }
 }
 
 
@@ -225,7 +231,8 @@ p {
 @media screen and (min-width:768px) {
     .grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 50fr);
+        grid-template-rows: repeat(1, 50fr);
     }
     
     .span_column {
