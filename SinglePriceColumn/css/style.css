@@ -50,6 +50,7 @@ p {
 @media screen and (min-width:768px) {
     .container {
         max-width: 71.5rem;
+        margin-top: 150px;
     }
 }
 
@@ -75,7 +76,7 @@ p {
 
 @media screen and (min-width:768px) {
     .block {
-        padding: 3.5rem;
+        padding: 4rem;
         font-size: 1.9rem;
     }
 }
