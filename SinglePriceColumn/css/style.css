@@ -165,6 +165,10 @@ p {
     .description {
         font-size: 1.6rem;
     }
+
+    .move {
+        margin-left:20px;
+    }
 }
 
 /* * button */
@@ -193,12 +197,13 @@ p {
 
 @media screen and (min-width:768px) {
     .btn {
-        margin-top: 2rem;
+        margin-top: 3rem;
+        font-size: 1.6rem;
     }
 
     .btn--stretched {
         padding-left: 8.5rem;
-        padding-right: 8.5rem;
+        padding-right: 9rem;
     }
 }
 
