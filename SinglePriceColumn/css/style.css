@@ -201,7 +201,6 @@ p {
         font-size: 1.6rem;
     }
 
-    /* Need to check and see if there is a better way to do this  */
     .btn--stretched {
         padding-left: 8.5rem;
         padding-right: 9rem;
