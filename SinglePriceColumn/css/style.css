@@ -184,7 +184,7 @@ p {
     border: 0;
     box-shadow: 1px 1px 10px rgb(75, 74, 74);
 }
-/*  */
+
 .btn-primary {
     background-color: var(--secondary-color);
     color: var(--neutral-color-one);
